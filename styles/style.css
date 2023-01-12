@@ -282,7 +282,7 @@
 
 .footer__author {
   margin: 18px 0;
-  line-height: 25x;
+  line-height: 25px;
   font-size: 18px;
 }
 
@@ -292,7 +292,7 @@
 
 .footer__column-heading {
   margin: 0;
-  line-height: 30x;
+  line-height: 30px;
   font-size: 18px;
   font-weight: 600;
 }
@@ -304,7 +304,7 @@
 }
 
 .footer__column-link {
-  line-height: 30x;
+  line-height: 30px;
   font-size: 18px;
   text-decoration: none;
   color: #fff;
