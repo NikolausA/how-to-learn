@@ -16,7 +16,6 @@
   /* выше установили ограничения для секции */
   margin: 0;
   display: flex;
-  /* flex-direction: column; */
   justify-content: flex-start;
   align-items: center;
   background-color: #f2f2f2;
@@ -212,11 +211,13 @@
 }
 
 .section-title_theme_dark {
+  position: relative;
   color: #fff;
   z-index: 1;
 }
 
 .section-sub-title_theme_dark {
+  position: relative;
   color: #fff;
 }
 
