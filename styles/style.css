@@ -87,12 +87,11 @@
   display: flex;
   justify-content: space-between;
   width: 80%;
-  min-width: 784px;
   margin: 0 auto;
 }
 
 .two-columns__brief {
-  min-width: 175px;
+  width: 175px;
   color: #2f80ed;
   line-height: 1.2;
   font-size: 18px;
@@ -138,6 +137,7 @@
   width: 60%;
   line-height: 34px;
   font-size: 24px;
+  font-weight: normal;
   text-align: center;
 }
 
@@ -262,6 +262,9 @@
   background-color: #1f1f1f;
   padding: 60px 0 40px;
   min-height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
 
 .footer__columns {
