@@ -1,0 +1,3 @@
+.arrow__link::after {
+  content: '\2192';
+}
