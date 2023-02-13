@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles/normalize.css">
   <link rel="stylesheet" href="./styles/index.css">
   <title>Научиться учиться</title>
 </head>
@@ -39,40 +38,40 @@
       <section class="techniques">
         <h2 class="section-title">Техники обучения</h2>
         <h3 class="section-subtitle">Пять практик от Барбары Оакли</h3>
-        <div class="cards">
-          <div class="cards__item">
-            <img class="cards__image" src="./images_sprint-2/cards-attention.png" alt="иллюстрация карточки два вида внимания">
-            <h3 class="cards__title">Два вида внимания</h3>
+        <ul class="cards">
+          <li class="cards__item">
+            <img class="cards__image" src="./images/cards-attention.png" alt="иллюстрация карточки два вида внимания">
+            <h4 class="cards__title">Два вида внимания</h4>
             <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
-          </div>
-          <div class="cards__item">
-            <img class="cards__image" src="./images_sprint-2/cards-recall.png" alt="иллюстрация карточки повторение">
-            <h3 class="cards__title">Recall</h3>
+          </li>
+          <li class="cards__item">
+            <img class="cards__image" src="./images/cards-recall.png" alt="иллюстрация карточки повторение">
+            <h4 class="cards__title">Recall</h4>
             <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
-          </div>
-          <div class="cards__item">
-            <img class="cards__image" src="./images_sprint-2/cards-interliving.png" alt="иллюстрация карточки Интерливинг">
-            <h3 class="cards__title">Интерливинг</h3>
+          </li>
+          <li class="cards__item">
+            <img class="cards__image" src="./images/cards-interliving.png" alt="иллюстрация карточки Интерливинг">
+            <h4 class="cards__title">Интерливинг</h4>
             <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
-          </div>
-          <div class="cards__item">
-            <img class="cards__image" src="./images_sprint-2/cards-question.png" alt="иллюстрация карточки вопросы">
-            <h3 class="cards__title">Вопросы</h3>
+          </li>
+          <li class="cards__item">
+            <img class="cards__image" src="./images/cards-question.png" alt="иллюстрация карточки вопросы">
+            <h4 class="cards__title">Вопросы</h4>
             <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
-          </div>
-          <div class="cards__item">
-            <img class="cards__image" src="./images_sprint-2/cards-competence.png" alt="иллюстрация карточки иллюзия компетентности">
-            <h3 class="cards__title">Иллюзия компетентности</h3>
+          </li>
+          <li class="cards__item">
+            <img class="cards__image" src="./images/cards-competence.png" alt="иллюстрация карточки иллюзия компетентности">
+            <h4 class="cards__title">Иллюзия компетентности</h4>
             <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
-          </div>
-        </div>
+          </li>
+        </ul>
       </section>
       <section class="video">
         <h2 class="section-title">Видео нa TED</h2>
         <h3 class="section-subtitle">Для тех, кто любит прокрастинировать</h3>
         <div class="video__iframes">
-          <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/watch?v=arj7oStGLkU"></iframe>
-          <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/watch?v=5MgBikgcWnY"></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU"></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY"></iframe>
         </div>
       </section>
       <section class="oakly">
@@ -136,7 +135,9 @@
         <div class="khan__container">
           <p class="khan__author">Салман Хан</p>
           <h2 class="khan__title">Весь мир — школа</h2>
-          <q class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</q>
+          <blockquote class="khan__quote">
+            <p>«Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.»</p>
+          </blockquote>
           <p class="khan__quote-author">Джордж Лукас</p>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
@@ -197,16 +198,16 @@
         <h3 class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</h3>
         <div class="resources__logo-zone">
           <a href="#" class="resources__link">
-            <img src="./images_sprint-2/logo/resources-arzamas.svg" class="resources__logo" alt="Логотип сайта Арзамас">
+            <img src="./images/logo/resources-arzamas.svg" class="resources__logo" alt="Логотип сайта Арзамас">
           </a>
           <a href="#" class="resources__link">
-            <img src="./images_sprint-2/logo/resources-n1.svg" class="resources__logo" alt="Логотип сайта N1">
+            <img src="./images/logo/resources-n1.svg" class="resources__logo" alt="Логотип сайта N1">
           </a>
           <a href="#" class="resources__link">
-            <img src="./images_sprint-2/logo/resources-strelka.svg" class="resources__logo" alt="Логотип сайта Стрелка">
+            <img src="./images/logo/resources-strelka.svg" class="resources__logo" alt="Логотип сайта Стрелка">
           </a>
           <a href="#" class="resources__link">
-            <img src="./images_sprint-2/logo/resources-polka.svg" class="resources__logo" alt="Логотип сайта Полка">
+            <img src="./images/logo/resources-polka.svg" class="resources__logo" alt="Логотип сайта Полка">
           </a>
         </div>
       </section>
